@@ -1,2 +1,2 @@
-# au578632_Schimdt_TobiasHolmberg
+# au578632_Schmidt_TobiasHolmberg
 my workspace for Digital Methods for Historians 2019

@@ -1,0 +1,1997 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column _countryLabel using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "battles",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column battles using expression value.toNumber()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Japan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Japan"
+      },
+      {
+        "from": [
+          "Empire of Japan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Japan"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Unified Silla"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Korea"
+      },
+      {
+        "from": [
+          "Three Kingdoms of Korea"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Korea"
+      },
+      {
+        "from": [
+          "Later Three Kingdoms"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Korea"
+      },
+      {
+        "from": [
+          "South Korea"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Korea"
+      },
+      {
+        "from": [
+          "North Korea"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Korea"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Korean Empire"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Korea"
+      },
+      {
+        "from": [
+          "Korea"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Korea"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Nazi Germany"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Germany"
+      },
+      {
+        "from": [
+          "German Empire"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Germany"
+      },
+      {
+        "from": [
+          "Germany"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Germany"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Goryeo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Korea"
+      },
+      {
+        "from": [
+          "Joseon"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Korea"
+      },
+      {
+        "from": [
+          "Korea"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Korea"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Russia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Russia"
+      },
+      {
+        "from": [
+          "Prussia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Germany"
+      },
+      {
+        "from": [
+          "Germany"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Germany"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Russia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Russia"
+      },
+      {
+        "from": [
+          "Russian Empire"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Russia"
+      },
+      {
+        "from": [
+          "Soviet Union"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Russia"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Poland"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Poland"
+      },
+      {
+        "from": [
+          "Free City of Danzig"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Poland"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Republic of China (1912â€“1949)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "China"
+      },
+      {
+        "from": [
+          "People's Republic of China"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "China"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Kingdom of the Netherlands"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Netherlands"
+      },
+      {
+        "from": [
+          "Netherlands"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Netherlands"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "year",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column year using expression value.toNumber()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Greece"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Greece"
+      },
+      {
+        "from": [
+          "Kingdom of Greece"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Greece"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "year",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column year using expression value.toDate()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "battles",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column battles using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "battles",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column battles using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "year",
+    "expression": "grel:value",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column year using expression grel:value"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "battles",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column battles using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column _countryLabel using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "battles",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column battles using expression value.toNumber()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Japan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Japan"
+      },
+      {
+        "from": [
+          "Empire of Japan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Japan"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Unified Silla"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Korea"
+      },
+      {
+        "from": [
+          "Three Kingdoms of Korea"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Korea"
+      },
+      {
+        "from": [
+          "Later Three Kingdoms"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Korea"
+      },
+      {
+        "from": [
+          "South Korea"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Korea"
+      },
+      {
+        "from": [
+          "North Korea"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Korea"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Korean Empire"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Korea"
+      },
+      {
+        "from": [
+          "Korea"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Korea"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Nazi Germany"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Germany"
+      },
+      {
+        "from": [
+          "German Empire"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Germany"
+      },
+      {
+        "from": [
+          "Germany"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Germany"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Goryeo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Korea"
+      },
+      {
+        "from": [
+          "Joseon"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Korea"
+      },
+      {
+        "from": [
+          "Korea"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Korea"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Russia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Russia"
+      },
+      {
+        "from": [
+          "Prussia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Germany"
+      },
+      {
+        "from": [
+          "Germany"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Germany"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Russia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Russia"
+      },
+      {
+        "from": [
+          "Russian Empire"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Russia"
+      },
+      {
+        "from": [
+          "Soviet Union"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Russia"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Poland"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Poland"
+      },
+      {
+        "from": [
+          "Free City of Danzig"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Poland"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Republic of China (1912â€“1949)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "China"
+      },
+      {
+        "from": [
+          "People's Republic of China"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "China"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Kingdom of the Netherlands"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Netherlands"
+      },
+      {
+        "from": [
+          "Netherlands"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Netherlands"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "year",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column year using expression value.toNumber()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Belarus"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Albania"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Poland"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Estonia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Russia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Northern Ireland"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "United Kingdom"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Ukraine"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Austria"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Spain"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Algeria"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "San Marino"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Lithuania"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Monaco"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Hungary"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Luxembourg"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Italy"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Finland"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Bosnia and Herzegovina"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Norway"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Bulgaria"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Kosovo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Georgia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "France"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Serbia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Slovakia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Belgium"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Netherlands"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Croatia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Germany"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Romania"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Czech Republic"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Jersey"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Latvia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Slovenia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Kiribati"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia & Oceania"
+      },
+      {
+        "from": [
+          "Japan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia & Oceania"
+      },
+      {
+        "from": [
+          "Republic of Cyprus"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia & Oceania"
+      },
+      {
+        "from": [
+          "East Timor"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia & Oceania"
+      },
+      {
+        "from": [
+          "Marshall Islands"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia & Oceania"
+      },
+      {
+        "from": [
+          "Thailand"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia & Oceania"
+      },
+      {
+        "from": [
+          "Philippines"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia and Oceania"
+      },
+      {
+        "from": [
+          "Solomon Islands"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia & Oceania"
+      },
+      {
+        "from": [
+          "Papua New Guinea"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia & Oceania"
+      },
+      {
+        "from": [
+          "Vietnam"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia & Oceania"
+      },
+      {
+        "from": [
+          "Australia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia & Oceania"
+      },
+      {
+        "from": [
+          "Laos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia & Oceania"
+      },
+      {
+        "from": [
+          "Indonesia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia & Oceania"
+      },
+      {
+        "from": [
+          "Korea"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia & Oceania"
+      },
+      {
+        "from": [
+          "Taiwan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia & Oceania"
+      },
+      {
+        "from": [
+          "Cambodia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia & Oceania"
+      },
+      {
+        "from": [
+          "India"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia & Oceania"
+      },
+      {
+        "from": [
+          "Malaysia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia & Oceania"
+      },
+      {
+        "from": [
+          "Palau"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia & Oceania"
+      },
+      {
+        "from": [
+          "Mongolia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia & Oceania"
+      },
+      {
+        "from": [
+          "Kuwait"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia & Oceania"
+      },
+      {
+        "from": [
+          "Azerbaijan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia & Oceania"
+      },
+      {
+        "from": [
+          "Sri Lanka"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia & Oceania"
+      },
+      {
+        "from": [
+          "Myanmar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia & Oceania"
+      },
+      {
+        "from": [
+          "Singapore"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia & Oceania"
+      },
+      {
+        "from": [
+          "China"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia & Oceania"
+      },
+      {
+        "from": [
+          "Brunei"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia & Oceania"
+      },
+      {
+        "from": [
+          "Bangladesh"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia & Oceania"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pakistan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Middle East"
+      },
+      {
+        "from": [
+          "Yemen"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Middle East"
+      },
+      {
+        "from": [
+          "Jordan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Middle East"
+      },
+      {
+        "from": [
+          "Iran"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Middle East"
+      },
+      {
+        "from": [
+          "Iraq"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Middle East"
+      },
+      {
+        "from": [
+          "Turkey"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Middle East"
+      },
+      {
+        "from": [
+          "State of Palestine"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Middle East"
+      },
+      {
+        "from": [
+          "Oman"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Middle East"
+      },
+      {
+        "from": [
+          "Saudi Arabia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Middle East"
+      },
+      {
+        "from": [
+          "Lebanon"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Middle East"
+      },
+      {
+        "from": [
+          "Syria"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Middle East"
+      },
+      {
+        "from": [
+          "Israel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Middle East"
+      },
+      {
+        "from": [
+          "Afghanistan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Middle East"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Mauritania"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Africa"
+      },
+      {
+        "from": [
+          "Niger"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Africa"
+      },
+      {
+        "from": [
+          "French protectorate of Tunisia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Africa"
+      },
+      {
+        "from": [
+          "South Sudan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Africa"
+      },
+      {
+        "from": [
+          "Angola"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Africa"
+      },
+      {
+        "from": [
+          "Somalia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Africa"
+      },
+      {
+        "from": [
+          "Democratic Republic of the Congo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Africa"
+      },
+      {
+        "from": [
+          "Madagascar"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Africa"
+      },
+      {
+        "from": [
+          "Burundi"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Africa"
+      },
+      {
+        "from": [
+          "Mali"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Africa"
+      },
+      {
+        "from": [
+          "Western Sahara"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Africa"
+      },
+      {
+        "from": [
+          "Egypt"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Africa"
+      },
+      {
+        "from": [
+          "Nigeria"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Africa"
+      },
+      {
+        "from": [
+          "Sudan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Africa"
+      },
+      {
+        "from": [
+          "Chad"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Africa"
+      },
+      {
+        "from": [
+          "Senegal"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Africa"
+      },
+      {
+        "from": [
+          "Eritrea"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Africa"
+      },
+      {
+        "from": [
+          "Libya"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Africa"
+      },
+      {
+        "from": [
+          "Ethiopia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Africa"
+      },
+      {
+        "from": [
+          "Tunisia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Africa"
+      },
+      {
+        "from": [
+          "Morocco"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Africa"
+      },
+      {
+        "from": [
+          "Uganda"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Africa"
+      },
+      {
+        "from": [
+          "Gabon"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Africa"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Asia and Oceania"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia and Oceania"
+      },
+      {
+        "from": [
+          "Asia & Oceania"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia & Oceania"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Asia and Oceania"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia and Oceania"
+      },
+      {
+        "from": [
+          "Asia & Oceania"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia & Oceania"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "North Macedonia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Guernsey"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Greece"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Europe"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "United States of America"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "North and Central America"
+      },
+      {
+        "from": [
+          "Panama"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "North and Central Amerca"
+      },
+      {
+        "from": [
+          "Mexico"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "North and Central America"
+      },
+      {
+        "from": [
+          "Canada"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "North and Central America"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Cuba"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "North and Central America"
+      },
+      {
+        "from": [
+          "North and Central Amerca"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "North and Central Amerca"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Falkland Islands"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "South America"
+      },
+      {
+        "from": [
+          "Chile"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "South America"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Abkhazia"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      },
+      {
+        "from": [
+          "Europe"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Europe"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Asia and Oceania"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia and Oceania"
+      },
+      {
+        "from": [
+          "Asia & Oceania"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia & Oceania"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Asia and Oceania"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia and Oceania"
+      },
+      {
+        "from": [
+          "Asia & Oceania"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Asia and Oceania"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "_countryLabel",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "North and Central America"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "North and Central America"
+      },
+      {
+        "from": [
+          "North and Central Amerca"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "North and Central America"
+      }
+    ],
+    "description": "Mass edit cells in column _countryLabel"
+  }
+]
